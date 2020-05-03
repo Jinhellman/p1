@@ -1,0 +1,171 @@
+body{
+font-family: "BPG Arial", sans-serif;
+background-image: url("../images/office.jpg");
+background-repeat: no-repeat;
+background-position: center;
+}
+span{
+  font-weight: 600;
+}
+.nav-item{
+  font-size: 1.25rem;
+}
+.nav-item:hover{
+    box-shadow: 0 2px #b55400;
+}
+.nav-a{
+  color: #fff;
+  font-size:1.25rem;
+}
+.nav-a:hover{
+  color: #cccbcb;
+}
+.navbar-nav{
+display: table-header-group;
+}
+.dts-icon{
+  color: #fff;
+}
+.fa-globe-europe{
+  color: #fff;
+}
+.fa-globe-europe:hover{
+  color: #eeeeee;
+}
+.arrow{
+  color: #fff;
+}
+.arrow:hover{
+  color:#fff;
+}
+.dropdown{
+  padding: 0 1.625rem;
+}
+.dropdown-item{
+  color:  #fff;
+  background-color: #b55400;
+}
+.dropdown-item:hover{
+  background-color: rgba(0,0,0,.075);
+  color: #eeeeee;
+}
+
+.dropdown-menu{
+padding: 0;
+min-width: 6rem;
+font-size: 0.8125rem;
+background-color: rgba(0,0,0,.075);
+border-color: #b55400;
+border: none;
+}
+.dropdown-menu:hover{
+  background-color: rgba(8, 13, 17, 0.48);
+  color: #fff;
+}
+.price{
+  text-align: center;
+  padding: 45px 0 30px 0;
+  font-size: 2rem;
+  color: #fff;
+}
+.pricing-h2{
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 3.4375rem;
+}
+.pricing-h2:hover{
+  color: #b55400;
+  text-decoration: none;
+}
+.number-icon{
+  text-decoration: none;
+  font-size: 50px;
+  margin:10px;
+}
+.number-icon:hover{
+box-shadow: 0px 2px #fff;
+}
+.pricing-p{
+  font-size: 0.625rem;
+  color: #fff;
+}
+.price-box2{
+  border-radius: 5px;
+}
+.price-box4{
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.66);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1%;
+}
+.h6{
+  padding: 50px 0 10px 80px;
+  font-size: 1.875rem;
+}
+.price-1{
+  font-size: 3.625rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.price-2{
+  font-size: 3.625rem;
+  color:#b55400;
+  margin-bottom: 40px;
+}
+.price-calc{
+  border-radius: 5px;
+}
+.price-3{
+  color:#fff;
+}
+.minus-price{
+  text-decoration: line-through ;
+  color: #b55400;
+  margin-bottom: 35px;
+}
+.minus-none{
+  visibility: hidden;
+  margin-bottom: 35px;
+}
+.infinity-icon{
+  color: #fff;
+  font-size: 40px;
+  margin:10px;
+}
+.infinity-icon:hover{
+  box-shadow: 0px 2px #fff;
+}
+.pricing-i{
+  font-size: 47px;
+  color:#fff;
+}
+.pricing-i:hover{
+  color:#b55400;
+}
+.webName-p{
+  text-align: center;
+  font-family:'Sacramento';
+  color: #eeeeee;
+  margin: 0 auto;
+  padding: 1% 3%;
+  font-size: 20px;
+}
+.footer-hr{
+  padding-bottom: 70px;
+}
+@media screen and (max-width: 1073px){.nav-item{
+    font-size: 1rem;
+  }.nav-a{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 991px){
+  .dropdown{
+    padding: 0;
+  }#contact-list{
+    text-align: left;
+  }
+}

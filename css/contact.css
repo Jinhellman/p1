@@ -1,0 +1,218 @@
+body{
+  font-family: "BPG Arial", sans-serif;
+  background-color: #000;
+}
+h6{
+  line-height: 1.5;
+}
+p{
+  font-size: 0.5rem;
+}
+a:hover{
+  color: #000;
+}
+#map{
+  border-style: solid;
+  border-color: #b55400;
+  border-radius: 1%;
+}
+#first{
+  padding: 4% 0% 4% 0%;
+}
+#second{
+  padding: 4% 10%;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b55400;
+  border-radius: 26px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+input[type=submit] {
+  background-color: #b55400;
+  color: #fff;
+  padding: 12px 20px;
+  border: solid;
+  border-width: thin;
+  border-color: #fff;
+  border-radius: 18px;
+  cursor: pointer;
+  outline-color: transperent;
+}
+input[type=submit]:hover {
+  background-color: rgba(8, 13, 17, 0.48);
+  color: #f67608;
+  border-color:  #b55400;
+  outline-color: transperent;
+}
+label{
+  color:#b55400;
+  outline-color: transperent;
+}
+input:focus, textarea:focus, select:focus, a:focus, i:focus, button:focus{
+outline: none;
+}
+.container1 {
+  border-radius: 3%;
+  background-color: rgba(8, 13, 17, 0.48);
+  border-color: #b55400;
+  padding: 20px;
+  border-style: solid;
+  border-width: thin;
+}
+.navbar-nav{
+  display: table-header-group;
+}
+.nav-item:hover{
+  box-shadow: 0 2px #fff;
+}
+.nav-a{
+  font-size: 1.25rem;
+  color:#b55400;
+}
+.nav-a:hover{
+  color: #fff;
+  box-shadow:  0 2px #fff;
+}
+.dts-icon{
+  color: #b55400;
+}
+.btn-secondary{
+  color: #fff;
+  background-color: #000;
+}
+.btn-secondary:hover{
+  border-color: #fff;
+  background-color: #b55400;
+}
+.dropdown-item{
+  color:  #b55400;
+}
+.dropdown-item:hover{
+  background-color: #fff;
+}
+.dropdown{
+padding: 0 1.625rem;
+}
+.dropdown-menu{
+padding: 0;
+min-width: 6rem;
+font-size: 0.8125rem;
+background-color: rgba(0,0,0,.15);
+border-color: #b55400;
+border: none;
+
+}
+.dropdown-menu:hover{
+  background-color: rgba(8, 13, 17, 0.48);
+  color: #fff;
+}
+.dropdown-item{
+  background-color: #b55400;
+  color: #fff;
+}
+.dropdown-item:hover{
+  background-color: rgba(0,0,0,.15);
+  color: #b55400;
+}
+.fa-globe-europe{
+  color: #b55400;
+}
+.fa-globe-europe:hover{
+  color:#fff;
+}
+.arrow{
+  color: #b55400;
+}
+.arrow:hover{
+  color: #b55400;
+}
+#dropdownMenuButton{
+  background-color:#b55400;
+  border-color: #fff;
+}
+.bg-image{
+  background-image: url("../images/ContactImg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.webName-p{
+  text-align: center;
+  font-family:'Sacramento';
+  color: #b55400;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1% 3%;
+  font-size: 20px;
+  border-radius: 100%;
+  border-color: #b55400;
+  border-style: solid;
+}
+#middle-hr{
+  padding:1% 28%;
+  text-align: center;
+}
+.final-hr{
+  border-style: solid;
+  border-color: #b55400;
+}
+
+#footer{
+  padding: 85px 0 20px;
+  background-color: #000;
+  text-align: center;
+}
+.final-a{
+color: #b55400;
+}
+.final-a:hover{
+  color: #eeeeee;
+  text-decoration: none;
+}
+.contact-icons{
+  color: #b55400;
+  padding: 0 10px;
+ outline-color: transperent;
+}
+.n1:hover{
+  color: #3982ef;
+}
+.n2:hover{
+  color:#3982ef;
+}
+.n3:hover{
+  color:#ff0000;
+}
+.n4:hover{
+  color:#ff0000;
+}
+.n5:hover{
+  color: #3982ef;
+}
+.n6:hover{
+  color: #3982ef;
+}
+#contact-list{
+  text-align: center;
+}
+@media screen and (max-width: 991px){#contact-list{
+  text-align: left;
+}.dropdown{
+ padding: 0;
+}
+}
+@media screen and (min-width:992px){
+  .container1{
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 1073px){
+  .nav-a{
+    font-size: 1rem;
+  }
+}
